@@ -1,6 +1,6 @@
 def create_codon_dict(file_path):
   codon_dict = {}
-  for line in lines:
+   for line in lines:
     line = line.strip()
     cells = line.split('\t')
     key = cells [0]
